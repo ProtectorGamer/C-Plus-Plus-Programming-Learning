@@ -1,4 +1,4 @@
-/*/*
+/*
 Define a class in C++ to represent a bank account. Include the following members:  
 Data members:  
 a) Name of the depositor  
