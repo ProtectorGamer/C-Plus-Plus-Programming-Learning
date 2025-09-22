@@ -3,42 +3,49 @@ using namespace std;
 
 class MetricDistance;
 
-class ImperialDistance {
+class ImperialDistance 
+{
     float miles;
 
 public:
     ImperialDistance() : miles(0) {}
-    void read() {
+    void read() 
+    {
         cout << "Enter Distance1 (in miles):\nMiles: ";
         cin >> miles;
     }
-    float getMiles() const {
+    float getMiles() const 
+    {
         return miles;
     }
 
     friend void combineDistances(const ImperialDistance&, const MetricDistance&);
 };
 
-class MetricDistance {
+class MetricDistance 
+{
     int kilometers, meters;
 
 public:
     MetricDistance() : kilometers(0), meters(0) {}
-    void read() {
+    void read() 
+    {
         cout << "Enter Distance2 (in km & meters):\nKilometers: ";
         cin >> kilometers;
         cout << "Meters: ";
         cin >> meters;
     }
 
-    float totalKilometers() const {
+    float totalKilometers() const 
+    {
         return kilometers + meters / 1000.0f;
     }
 
     friend void combineDistances(const ImperialDistance&, const MetricDistance&);
 };
 
-void combineDistances(const ImperialDistance& imp, const MetricDistance& met) {
+void combineDistances(const ImperialDistance& imp, const MetricDistance& met) 
+{
     const float KM_TO_MILES = 0.621371f;
     const float MILES_TO_KM = 1.609344f;
 

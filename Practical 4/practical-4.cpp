@@ -54,7 +54,6 @@ class info
     {
         cout << "String : " << detail << " has been destructed" << endl;
     }
-
 };
 
 int main()
@@ -72,7 +71,7 @@ int main()
     s2 = a;
     s2.display();
     
-    info s3(s1);
+    info s3(s1); // info s3 ( info s1) -> info s1 -> hello
     s3.display();
 
     info s4 = s1.concat(s2);

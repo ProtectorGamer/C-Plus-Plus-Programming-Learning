@@ -26,7 +26,7 @@ class bankdetail
             float balance;
             string name;
     public:
-            void initialvalue(int accnumber, int acctype, float bal, const string& n)
+            void initialvalue(int accnumber, int acctype, float bal, const string &n)
             {
                 accountnumber = accnumber;
                 accounttype = acctype;
