@@ -18,7 +18,6 @@ int main() {
         }
         cout << "You pressed: " << key << endl;
     }
-
     return 0;
 }
 
