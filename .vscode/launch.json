@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/C-Plus-Plus-Programming-Learning/Practical 9",
-      "program": "c:/C-Plus-Plus-Programming-Learning/Practical 9/build/Debug/outDebug",
+      "cwd": "c:/C-Plus-Plus-Programming-Learning/Exam Preparation T2",
+      "program": "c:/C-Plus-Plus-Programming-Learning/Exam Preparation T2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
